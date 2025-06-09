@@ -1,0 +1,79 @@
+:root {
+    --color-bg: #242422;
+    --color-text-main: #000000;
+    --color-primary: #63635f;
+    --wrapper-height: 90vh;
+    --image-max-width: 300px;
+    --image-margin: 2rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+orbitron- {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Estilo contenido */
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Coloca los elementos en una columna */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    justify-content: center;
+    /* Centra los elementos verticalmente */
+    min-height: 100vh;
+    /* Ajusta el alto mínimo para toda la pantalla */
+    text-align: center;
+    /* Centra el texto */
+}
+
+
+[hidden] {
+    display: none !important;
+}
+
+
+body {
+    font-family: Orbitron, sans-serif;
+    background-color: var(--color-bg);
+}
+
+input[type="range" i] {
+    appearance: auto;
+    cursor: default;
+    color: light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
+
+h1 {
+    color: rgba(0, 117, 255, 255);
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.agradecimientos {
+    font-size: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 117, 255, 255);
+}
